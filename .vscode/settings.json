@@ -1,0 +1,29 @@
+
+{
+    "makefile.configureOnOpen": true,
+    "terminal.integrated.cwd": "/Users/lifulin/xv6-riscv",
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    },
+
+    "cSpell.words": [
+    "forkret",
+    "kpgtbl",
+    "KSTACK",
+    "PGSIZE",
+    "kstack",
+    "kfree",
+    "xstate",
+    "uvmcreate",
+    "uvmfree",
+    "uvmunmap",
+    "uvmfirst",
+    "safestrcpy",
+    "growproc",
+    "uvmalloc",
+    "uvmdealloc",
+    "uvmcopy",
+    "reparent"
+]
+}

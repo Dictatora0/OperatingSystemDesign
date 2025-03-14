@@ -91,3 +91,11 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+extern struct proc proc[];  // 显式声明 proc 数组
+extern struct spinlock pid_lock;  // 保护进程表的锁
+extern struct proc *initproc;  // xv6 里的初始进程
+
+uint64 sys_getprocs(void) {
+  return getprocs();
+}

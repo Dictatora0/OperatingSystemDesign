@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build xv6",
+            "type": "shell",
+            "command": "make",
+            "args": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "通过 xv6 Makefile 进行编译"
+        },
+        {
+            "label": "Run xv6 in QEMU",
+            "type": "shell",
+            "command": "make",
+            "args": ["qemu"],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "运行 xv6"
+        }
+    ]
+}
